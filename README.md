@@ -5,9 +5,11 @@ immunoprecipation & sequencing (RIP-seq) data.
 
 ## Setup and file organization
 
-Analysis pipeline is in /src. Underlying code is in the package /src/poolQTL. 
+Analysis pipeline is in /src. Underlying code is in the package /src/poolQTL.
 
-Counts data can be found at https://drive.google.com/drive/folders/1YgU54SKnJL-zgb5c5ehvrFBPJDPy4-Pt?usp=drive_link and is available for access by anyone with a LionMail address.
+For code underlying beta model see /src/pooledQTL/beta_model.py
+
+Counts data can be found at https://drive.google.com/drive/folders/1YgU54SKnJL-zgb5c5ehvrFBPJDPy4-Pt?usp=drive_link.
 Code works on the assumption that data is downloaded files are all extracted into a subdirectory of the github repo called /data
 
 You will also need to download two gencode v38 files for generating annotations. These files can also be found in the google drive link and should be put in the /data directory.
