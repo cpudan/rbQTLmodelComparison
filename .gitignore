@@ -8,3 +8,6 @@ src/pooledQTL/__pycache__/deconvolve.cpython-39.pyc
 2024-01-31_binomial_test.pdf
 2024-02-08_binomial_test.pdf
 sample_swap_sweep.pdf
+data/*
+data
+renv
